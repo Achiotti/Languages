@@ -4,19 +4,25 @@
       event.preventDefault();
 
   var nameInput = $("input#userName").val();
-  var levelInput = $("#ideal").val();
-  var thinkingInput = $("#thinking").val();
-  var hpHouseInput = $("input:radio[name=hpHouse]:checked").val();
-  var moneyInput = $("#money").val();
-  var musicInput = $("input:radio[name=music]:checked").val();
+  var levelInput = $("#level").val();
+  // var thinkingInput = $("#thinking").val();
+  // // var hpHouseInput = $("input:radio[name=hpHouse]:checked").val();
+  // var moneyInput = $("#money").val();
+  // var musicInput = $("input:radio[name=music]:checked").val();
 
-  if ((levelInput === "alot")  && (thinkingInput === "concrete") && (moneyInput === "trillions")) {
+  if (levelInput === "alot") { 
     var result = "C";
-    $("#languageResult").text(result);
-  
-  
-  $(".userName").text(nameInput);
-  
-  $(".showResult").show();
+  } else if (levelInput === "little") {
+    var result = "Python";
+  } else if (levelInput === "none") {
+    var result = "Java";
+  }  
+
+
+  $("#languageResult").text(result);
+ 
+
+  $("#userName").text(nameInput);
+  $("#showResult").show();
   });
 });

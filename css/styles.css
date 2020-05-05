@@ -11,5 +11,29 @@
 }
 
 body {
-  background-color: yellow;
+  background-color: #e7ed0a;
+  border: solid #dd8d19 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-family: Chalkduster, fantasy;
+  text-align: center;
+  border: solid 5px black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-repeat: repeat;
+  padding: 20px; 
+  background-color: #dbba18;
+
+}
+
+h4 {
+  font-family: Chalkduster, fantasy;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
