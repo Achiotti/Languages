@@ -30,10 +30,29 @@ h1 {
   background-repeat: repeat;
   padding: 20px; 
   background-color: #dbba18;
-
 }
 
 h4 {
   font-family: Chalkduster, fantasy;
+  text-align: center;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.text {
+  font-family: Chalkduster, fantasy;
+}
+
+.text p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.showResult {
+  font-family: Marker Felt, fantasy;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.languageResult {
+  font-size: 50px;
+  font-family: Marker Felt, fantasy;
 }

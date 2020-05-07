@@ -18,6 +18,9 @@
     var result = "Java";
   }  
 
+$("showResult").click(function(){
+  $("." + this.className).toggle();
+});
 
   $("#languageResult").text(result);
  
@@ -26,3 +29,5 @@
   $("#showResult").show();
   });
 });
+
+
